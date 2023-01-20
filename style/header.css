@@ -1,0 +1,159 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+header {    
+    width: 100%;
+}
+
+nav{
+    padding: 1.6rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 3rem;
+    font-size: 3.2rem;
+    background-color: var(--cinza);
+}
+nav div a{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* HOME */
+a span.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';    
+    font-size: 80px;  /* Preferred icon size */
+    line-height: 1;    
+    color: white;
+}
+.home a{
+    color: white;
+}
+
+/* ESPAÇAMENTO DE CADA ITEM DO HEADER */
+.home{
+    flex: 2;
+}
+.menu{
+    flex: 3;
+}
+.barra_de_busca{
+    flex: 5;
+}
+/* MENU ESQUERDO COM MANUTENÇÃO DE ITENS, LOGIN E CARRINHO */
+.menu > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 4rem;
+    font-size: 2.4rem;
+}
+
+
+.menu .shopping > span{
+    font-size: 4.8rem;  /* Preferred icon size */
+}
+
+/* LOGIN */
+.menu .login{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.menu .login > span{
+    font-size: 4.8rem;
+}
+
+.menu .shopping{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.menu .shopping > span{
+    font-size: 4.8rem;
+}
+
+.barra_de_busca form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 3.2rem;
+    background-color: var(--cinza);
+}
+
+.barra_de_busca input {
+    font-size: 2.4rem;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    width: 100%;
+    padding: 0.5rem 2rem;
+}
+.barra_de_busca input:focus{
+    border: 2px solid rgb(113, 113, 236);
+    outline: none;
+}
+
+.barra_de_busca button {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--cinza);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 200ms; 
+}
+.barra_de_busca button > span{
+    font-size: 4rem;
+}
+
+.barra_de_busca button:hover {    
+    transition: 200ms;
+    color: white;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.dropdown {
+    padding: 1rem;
+    position: absolute;
+    background-color: var(--cinza-tranparente);
+    color: rgb(255, 255, 255);
+    top: 8rem;
+    width: 240px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    user-select: none;
+    border-radius: 1.5rem;
+}
+.dropdown li:hover{
+    color: rgb(113, 113, 236);
+}
+.dropdown_menu{
+    cursor: pointer;
+}
