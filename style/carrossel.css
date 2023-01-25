@@ -13,30 +13,41 @@ body {
 
 } */
 
+#teste-div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
 #carrossel-livros {
+    margin-top: 50px;
     position: relative;
     display: flex;
     justify-content: space-between;
-    justify-self: center;
+    justify-self: center; 
+    /* height: 300px; */
 
 }
 
 #galeria-livros {
     display: flex;
-    gap: 15px;
-    width: 1000px;
+    gap: 20px;
+    width: 1500px;
     overflow-x: hidden;
+    overflow: hidden;
 }
 
 #galeria-livros div.duplinha {
     display: flex;
     flex-flow: row;
-    width: 375px;
+    width: 500px;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 .card .livroCarrossel {
-    max-width: 175px;
-    max-height: 250px;
+    max-width: 325px;
+    max-height: 400px;
 }
 
 
@@ -68,13 +79,12 @@ body {
 
 div.cardSobreposicao {
     position: absolute;
-    /*margin: 0 10px;*/
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 175px;
-    height: 250px;
+    width: 250px;
+    height: 375px;
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0, 0.6) 10%, rgb(9, 51, 68, 0.6) 50%, rgb(37, 31, 60, 0.6));
     opacity: 0;
 }
