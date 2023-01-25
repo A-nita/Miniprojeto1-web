@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     justify-self: center; 
-    /* height: 300px; */
+    height: 450px;
 
 }
 
@@ -34,20 +34,20 @@ body {
     gap: 20px;
     width: 1500px;
     overflow-x: hidden;
-    overflow: hidden;
+    align-items: center;
 }
 
 #galeria-livros div.duplinha {
     display: flex;
     flex-flow: row;
-    width: 500px;
+    width: 825px;
     gap: 20px;
     justify-content: space-between;
 }
 
 .card .livroCarrossel {
-    max-width: 325px;
-    max-height: 400px;
+    max-width: 250px;
+    max-height: 425px;
 }
 
 
