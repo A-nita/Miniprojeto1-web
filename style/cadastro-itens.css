@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 0.5rem;
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     background-color: rgb(255, 255, 255);
 }
 
@@ -30,7 +30,7 @@ h2 {
 
     background: rgba(0, 0, 0, 0);
     padding: 2rem 1rem;
-    border: 3px solid greenyellow;
+    border: 3px solid rgb(34, 26, 85);
     border-radius: 2rem;
 }
 

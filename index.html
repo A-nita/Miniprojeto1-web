@@ -92,7 +92,9 @@
             </div>
             <section id="carrossel-livros">
                 <button class="btnControl btn_left" aria-label="previous">
-                    <<
+                    <span class="material-symbols-outlined">
+                        chevron_left
+                    </span>
                 </button>
 
                 <div class="galeria">
@@ -116,7 +118,7 @@
                                     <h2 class="title"> the girl who ate her brothres </h2>
                                     <span class="author">autor</span>
                                     <span class="editora">editora</span>
-                                    <button class="buy">buy</button>
+                                    <button class="buy">A partir de R$20,00</button>
                                 </div>
                             </li>
                         </div>
@@ -284,7 +286,9 @@
                 </div>
 
                 <button class="btnControl btn_right" aria-label="next">
-                    >>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
                 </button>
             </section>
             <section class="livros">
@@ -313,30 +317,29 @@
 
         <div id="cadastro-itens">
             <h2>Cadastro de item</h2>
-            <form class="cadastro_item">
+            <form id='form-cadastro-item' class="cadastro_item">
                 <div>
                     <label for="titulo">Título</label>
-                    <input type="text" id="titulo" name="titulo" required>
-                </div>
-                <div>
-                    <label for="isbn">ISBN</label>
-                    <input type="text" id="isbn" name="isbn" required>
+                    <input type="text" id="titulo" name="titulo" required />
                 </div>
                 <div>
                     <label for="autor">Autor(a)</label>
-                    <input type="text" id="autor" name="autor" required>
+                    <input type="text" id="autor" name="autor" required />
                 </div>
                 <div>
                     <label for="editora">Editora</label>
-                    <input type="text" id="editora" name="editora" required>
+                    <input type="text" id="editora" name="editora" required />
                 </div>
                 <div>
                     <label for="ano-publicacao">Ano de publicação</label>
-                    <input type="number" id="ano-publicacao" name="ano-publicacao" required>
+                    <input type="date" id="ano-publicacao" name="ano-publicacao" required />
                 </div>
                 <div>
                     <label for="apreco">Preço</label>
-                    <input type="number" id="preco" name="preco" required>
+                    <input type="text" id="preco" name="preco" required 
+                        pattern="^[0-9]+([\.,]\d+)?$"
+                        title="Precisa ser um número e positivo !"
+                    />
                 </div>
 
                 <label class="imagem-capa-container" for="imagem-capa">
@@ -348,19 +351,21 @@
                         Imagem de capa
                     </span>
 
-                    <input id="imagem-capa" type="file" accept=".png,.jpg, .jpeg, .svg" name="imagem-capa" required/>
+                    <input id="imagem-capa" type="file" accept=".png,.jpg, .jpeg, .svg" name="imagem-capa" required />
                 </label>
 
                 <span id="selected-filename-label"></span>
 
                 <div>
                     <label for="nome">Nome vendedor</label>
-                    <input type="text" id="nome" name="nome" required>
+                    <input type="text" id="nome" name="nome" required />
                 </div>
                 <div>
                     <label for="email">Email vendedor</label>
-                    <input type="text" id="email" name="email" required>
+                    <input type="text" id="email" name="email" required />
                 </div>
+
+                <input type="submit" value="Cadastrar">
             </form>
         </div>
     </main>
