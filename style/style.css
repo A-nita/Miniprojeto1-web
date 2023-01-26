@@ -1,7 +1,10 @@
 :root{
     font-size: 10px;
     --cinza: rgb(26, 25, 40);
+    --cinza-claro: rgb(41, 39, 62);
     --cinza-tranparente: rgba(26, 25, 40, 0.902);
+    --roxo: rgb(125, 96, 192);
+    box-sizing: border-box;
 }
 
 body{
@@ -12,13 +15,12 @@ body{
     width: 100%;
     font-family: 'Raleway', sans-serif;
     color: white;
+    background-color: var(--cinza-claro);
 }
 
 main{
     width: 100%;
     height: 100%;
-    color: white;
-    background-color: var(--cinza);
     padding-bottom: 6rem;
 }
 

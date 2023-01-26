@@ -88,7 +88,7 @@
 
     <main>
         <!-- Itens 6 a 9 -->
-        <div id="homepage">
+        <div id="homepage" class="hidden">
             <div class="carousel">
                 <img src="https://www.darksidebooks.com.br/arquivos/Fragmentos_do_Horror_banner_home.jpg?v=638095580783000000">
             </div>
@@ -510,27 +510,32 @@
         </div>
         
         <!-- Itens 10 a 12-->
-        <div id="cadastro-itens" class="hidden">
+        <div id="cadastro-itens">
             <h2>Cadastro de item</h2>
             <form id='form-cadastro-item' class="cadastro_item">
                 <div>
-                    <label for="titulo">Título</label>
-                    <input type="text" id="titulo" name="titulo" required />
+                    <label for="titulo">TÍTULO</label>
+                    <input type="text" id="titulo" name="titulo" required placeholder="Seu livro" />
                 </div>
                 <div>
-                    <label for="autor">Autor(a)</label>
+                    <label for="autor">AUTOR</label>
                     <input type="text" id="autor" name="autor" required />
                 </div>
                 <div>
-                    <label for="editora">Editora</label>
+                    <label for="editora">EDITORA</label>
                     <input type="text" id="editora" name="editora" required />
                 </div>
                 <div>
-                    <label for="ano-publicacao">Ano de publicação</label>
-                    <input type="date" id="ano-publicacao" name="ano-publicacao" required />
+                    <label for="ano-publicacao">ANO DE PUBLICAÇÃO</label>
+                    <select id="ano-publicacao" name="ano-publicacao" required>
+                        <option disabled="" selected="" value="">Selecione o ano de publicação</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Outro</option>
+                    </select>
                 </div>
                 <div>
-                    <label for="apreco">Preço</label>
+                    <label for="apreco">PREÇO</label>
                     <input type="text" id="preco" name="preco" required 
                         pattern="^[0-9]+([\.,]\d+)?$"
                         title="Precisa ser um número e positivo !"
@@ -543,7 +548,7 @@
                     </span>
 
                     <span id="imagem-capa-msg" >
-                        Imagem de capa
+                        IMAGEM DE CAPA
                     </span>
 
                     <input id="imagem-capa" type="file" accept=".png,.jpg, .jpeg, .svg" name="imagem-capa" required />
@@ -552,18 +557,18 @@
                 <span id="selected-filename-label"></span>
 
                 <div>
-                    <label for="nome">Nome vendedor</label>
+                    <label for="nome">NOME VENDEDOR</label>
                     <input type="text" id="nome" name="nome" required />
                 </div>
                 <div>
-                    <label for="email">Email vendedor</label>
+                    <label for="email">E-MAIL VENDEDOR</label>
                     <input type="text" id="email" name="email" 
                         pattern="/^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,15})+$/"
                         title="Precisa ser um e-mail válido"
                     required />
                 </div>
 
-                <input type="submit" value="Cadastrar">
+                <input type="submit" value="Cadastrar" id="btn_cadastro_item">
             </form>
         </div>
     </main>
