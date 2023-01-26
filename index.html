@@ -92,7 +92,7 @@
             </div>
             <section id="carrossel-livros">
                 <button class="btnControl btn_left" aria-label="previous">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined seta">
                         chevron_left
                     </span>
                 </button>
@@ -115,10 +115,10 @@
                                 <img src="https://i.pinimg.com/474x/13/ad/53/13ad53b2d9c6fd3cff1913067c000260.jpg" alt=""
                                     class="livroCarrossel">
                                 <div class="cardSobreposicao">
-                                    <h2 class="title"> the girl who ate her brothres </h2>
-                                    <span class="author">autor</span>
-                                    <span class="editora">editora</span>
-                                    <button class="buy">A partir de R$20,00</button>
+                                    <h2 class="title"> The girl who ate her brothres </h2>
+                                    <span class="author">Sarah J. Mass</span>
+                                    <span class="editora">Galera Record</span>
+                                    <button class="buy">A partir de R$ 20,00</button>
                                 </div>
                             </li>
                         </div>
@@ -286,7 +286,7 @@
                 </div>
 
                 <button class="btnControl btn_right" aria-label="next">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined seta">
                         chevron_right
                     </span>
                 </button>
@@ -362,7 +362,10 @@
                 </div>
                 <div>
                     <label for="email">Email vendedor</label>
-                    <input type="text" id="email" name="email" required />
+                    <input type="text" id="email" name="email" 
+                        pattern="/^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,15})+$/"
+                        title="Precisa ser um e-mail válido"
+                    required />
                 </div>
 
                 <input type="submit" value="Cadastrar">

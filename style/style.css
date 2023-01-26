@@ -4,19 +4,14 @@
     --cinza-tranparente: rgba(26, 25, 40, 0.902);
 }
 
+
 body{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     font-family: 'Raleway', sans-serif;
-    color: white;
-}
-
-.livros > h2 {
-    font-size: 4rem;
-    margin-bottom: 2rem;
     color: white;
 }
 

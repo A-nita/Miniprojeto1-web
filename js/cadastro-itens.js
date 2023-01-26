@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const precoInput = document.getElementById('preco')
     const emailInput = document.getElementById('email')
 
-    
+
 })
 
 

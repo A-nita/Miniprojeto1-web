@@ -1,14 +1,4 @@
 
-body{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 100vw;
-    font-family: 'Raleway', sans-serif;
-    color: white;
-}
-
 header {    
     width: 100%;
 }
