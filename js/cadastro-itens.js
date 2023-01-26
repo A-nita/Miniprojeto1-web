@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const formCadastroItens = document.getElementById('form-cadastro-item')
     formCadastroItens.addEventListener('submit', (event) => {
-      alert('Cadastro do item realizado')
+      alert('Cadastro do item realizado com sucesso !')
     })
 })
 
