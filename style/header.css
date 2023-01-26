@@ -30,6 +30,8 @@ a span.material-symbols-outlined {
 }
 .home a{
     color: white;
+    font-family: 'Explora', cursive;
+    font-size: 50px;
 }
 
 /* ESPAÇAMENTO DE CADA ITEM DO HEADER */
