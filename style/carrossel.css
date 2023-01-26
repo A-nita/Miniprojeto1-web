@@ -13,6 +13,72 @@ body {
 
 } */
 
+
+.livros{
+    padding: 3rem 5rem;
+}
+
+.card{
+    color: white;
+    display: flex;
+    align-items: top;
+    justify-content: center;   
+    border-radius: 10px;
+    width: max-content;
+    font-size: 2rem;
+    height: 300px;
+}
+.card .title{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    text-justify: justify;
+}
+
+.card .book-img {
+    height: 300px;
+    width: auto;
+    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+}
+.carousel {
+    background-color: var(--cinza);
+    width: 100%;
+}
+.carousel > img{
+    width: 100%;
+    object-fit: cover;
+}
+.book-cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.book-cover :hover{
+   
+}
+.book-hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: fit-content;
+    height: 300px;
+    background: rgba(0, 0, 0, 0);   
+    padding: 0 1rem; 
+    
+    
+}
+.buy {
+    padding: 0.8rem 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.6rem;
+}
+
 .livros{
     padding: 3rem 5rem;
 }
