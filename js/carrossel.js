@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(elementoAtivo)
             elementos[elementoAtivo].scrollIntoView({
                 inline: "start",
+                block: "center",
                 behavior: "smooth"
-
             })
         })
     })

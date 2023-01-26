@@ -2,41 +2,96 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 0.5rem;
     font-size: 2.4rem;
-    background-color: rgb(253, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
+
+h2 {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem;
+}
+
 .cadastro_item {
+    margin: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 4rem;
-    width: 40%;
-    
+    gap: 2rem;
+
+    max-width: 800px;
+    min-width: 330px;
+    width: 90%;
+
     background: rgba(0, 0, 0, 0);
-    padding: 1rem;
+    padding: 2rem 1rem;
     border: 3px solid greenyellow;
     border-radius: 2rem;
-
-
 }
-.cadastro_item div{
+
+.cadastro_item div {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 1rem;       
+    gap: 1rem;
 }
 
-.cadastro_item div input{
+.cadastro_item div input {
     font-size: 2.4rem;
     border-radius: 2rem;
     border: 2px solid black;
     padding: 0.5rem 2rem;
+    width: 350px;
 }
 
-.cadastro_item div input:focus{
+.cadastro_item div input:focus {
     border: 2px solid rgb(113, 113, 236);
     outline: none;
+}
+
+.cadastro_item label.imagem-capa-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    height: 15rem;
+    width: 386px;
+    border: 1px dashed #7e0b9e;
+    border-radius: 2rem;
+}
+
+#imagem-capa {
+    display: none;
+    /* border: none; */
+}
+
+#imagem-capa-msg {
+    cursor: pointer;
+    padding: 1rem;
+    width: 350px;
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+}
+
+#selected-filename-label.file {
+    color: green;
+}
+
+#selected-filename-label.nofile {
+    color: red;
+}
+
+span.imagem-capa-icon {
+    font-size: 68px;
+    color: #a65ba6;
 }

@@ -32,8 +32,12 @@ body {
 #galeria-livros {
     display: flex;
     gap: 20px;
-    width: 1500px;
+    width: 100%;
+    max-width: 80vw;
+
     overflow-x: hidden;
+    overflow-y: hidden;
+
     align-items: center;
 }
 
