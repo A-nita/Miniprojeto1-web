@@ -13,19 +13,12 @@ body {
 
 } */
 
-#teste-div {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-
 #carrossel-livros {
-    margin-top: 50px;
+    margin-top: 10px;
     position: relative;
     display: flex;
     justify-content: space-between;
-    justify-self: center; 
-    height: 450px;
+    justify-self: center;
 
 }
 
@@ -50,8 +43,8 @@ body {
 }
 
 .card .livroCarrossel {
-    max-width: 250px;
-    max-height: 425px;
+    width: 200px;
+    height: 300px;
 }
 
 
@@ -75,7 +68,6 @@ body {
 
 #galeria-livros li.card {
     position: relative;
-    padding: 0px;
     display: flex;
 }
 
@@ -87,8 +79,8 @@ div.cardSobreposicao {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 250px;
-    height: 375px;
+    width: 200px;
+    height: 300px;
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0, 0.6) 10%, rgb(9, 51, 68, 0.6) 50%, rgb(37, 31, 60, 0.6));
     opacity: 0;
 }
