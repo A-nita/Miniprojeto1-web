@@ -56,9 +56,7 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-.book-cover :hover{
-   
-}
+
 .book-hover{
     display: flex;
     align-items: center;
@@ -144,7 +142,7 @@ body {
     font-size: 1.6rem;
 }
 
-#carrossel-livros {
+.carrossel-livros {
     margin-top: 10px;
     position: relative;
     display: flex;
@@ -154,7 +152,7 @@ body {
     width: none;
 }
 
-#galeria-livros {
+.galeria-livros {
     display: flex;
     gap: 20px;
     /* width: 100%; */
@@ -166,7 +164,7 @@ body {
     align-items: center;
 }
 
-#galeria-livros div.duplinha {
+.galeria-livros div.duplinha {
     display: flex;
     flex-flow: row;
     width: 825px;
@@ -199,7 +197,7 @@ body {
     right: 0;
 }
 
-#galeria-livros li.card {
+.galeria-livros li.card {
     position: relative;
     display: flex;
 }

@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
 
     <script src="./js/dropdown.js"></script>
-    <script src="./js/carrossel.js"></script>
+    <script src="./js/carrossel2.js"></script>
     <script src="./js/pages.js"></script>
     <script src="./js/image-input.js"></script>
     <script src="./js/cadastro-itens.js"></script>
@@ -90,7 +90,7 @@
 
     <main>
         <!-- Itens 6 a 9 -->
-        <div id="homepage" class="hidden">
+        <div id="homepage">
             <div class="carousel">
                 <img src="https://www.darksidebooks.com.br/arquivos/Fragmentos_do_Horror_banner_home.jpg?v=638095580783000000">
             </div>
@@ -99,7 +99,7 @@
                 <span>Ir para categoria</span>
             </div>
             
-            <section id="carrossel-livros">
+            <section class="carrossel-livros">
                 <button class="btnControl btn_left" aria-label="previous">
                     <span class="material-symbols-outlined seta">
                         chevron_left
@@ -107,7 +107,7 @@
                 </button>
 
                 <div class="galeria">
-                    <ul id="galeria-livros">
+                    <ul class="galeria-livros">
                         <div class="duplinha">
                             <li class="card">
                                 <img src="https://i.pinimg.com/474x/9d/c3/8a/9dc38a1d51ba61532f2a411806a8cd75.jpg"
@@ -306,7 +306,7 @@
                 <h2>Young Adult</h2>
                 <span>Ir para categoria</span>
             </div>
-            <section id="carrossel-livros">
+            <section class="carrossel-livros">
                 <button class="btnControl btn_left" aria-label="previous">
                     <span class="material-symbols-outlined seta">
                         chevron_left
@@ -314,7 +314,7 @@
                 </button>
 
                 <div class="galeria">
-                    <ul id="galeria-livros">
+                    <ul class="galeria-livros">
                         <div class="duplinha">
                             <li class="card">
                                 <img src="https://i.pinimg.com/474x/9d/c3/8a/9dc38a1d51ba61532f2a411806a8cd75.jpg"
@@ -512,7 +512,7 @@
         </div>
         
         <!-- Itens 10 a 12-->
-        <div id="cadastro-itens">            
+        <div id="cadastro-itens" class="hidden">            
             <form id='form-cadastro-item' class="cadastro_item">
                 <h2>Cadastro de item</h2>
                 <div>
