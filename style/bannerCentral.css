@@ -1,0 +1,24 @@
+.bannerCentral {
+    display: flex;
+    max-width: 100%;
+    justify-self: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 50px;
+    background-color: #993366;
+}
+
+.bannerImg img {
+    width: 400px;
+    height: 325px;
+    object-fit: none;
+    object-position: 15% 60%;
+}
+
+.bannerCentral .bannerText {
+    min-width: 350px;
+    text-align: center;
+    font-size: 25px;
+    align-self: center;
+    padding: 10px;
+}

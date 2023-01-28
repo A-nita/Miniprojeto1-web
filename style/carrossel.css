@@ -1,18 +1,3 @@
-/* *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    list-style: none;
-}
-
-body {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-
-} */
-
 
 .livros {
     padding: 3rem 5rem;
@@ -84,46 +69,6 @@ body {
     font-size: 1.6rem;
 }
 
-/*.livros {
-    padding: 3rem 5rem;
-}
-
-.card {
-    color: white;
-    display: flex;
-    align-items: top;
-    justify-content: center;
-    border-radius: 10px;
-    width: max-content;
-    font-size: 2rem;
-    height: 300px;
-}
-
-.card .title {
-    font-size: 2rem;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-    text-justify: justify;
-}
-
-.card .book-img {
-    height: 300px;
-    width: auto;
-    margin-bottom: 1rem;
-    border-radius: 1.5rem;
-}
-
-.carousel {
-    background-color: var(--cinza);
-    width: 100%;
-}
-
-.carousel>img {
-    width: 100%;
-    object-fit: cover;
-}*/
-
 .book-cover {
     display: flex;
     align-items: center;
@@ -131,7 +76,6 @@ body {
     flex-direction: column;
 }
 
-.book-cover :hover {}
 
 .book-hover {
     display: flex;
@@ -274,9 +218,6 @@ div.cardSobreposicao:hover {
     opacity: 1;
 }
 
-/*#galeria-livros .ativo>.cardSobreposicao {
-    display: flex;
-}*/
 .seta {
     color: white;
     font-size: 100px !important;
