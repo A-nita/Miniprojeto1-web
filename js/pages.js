@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     cadastroItensPageBtn.addEventListener('click', () => {
-        console.log('ALOUUUUUUUUUU')
         homePage.classList.add('hidden')
         cadastroItensPage.classList.remove('hidden')
     })
