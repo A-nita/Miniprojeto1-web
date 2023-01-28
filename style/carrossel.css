@@ -1,4 +1,3 @@
-
 .livros {
     padding: 3rem 5rem;
 }
@@ -221,4 +220,56 @@ div.cardSobreposicao:hover {
 .seta {
     color: white;
     font-size: 100px !important;
+}
+
+@media (max-width: 1080px) {
+
+    .card .livroCarrossel,
+    div.cardSobreposicao {
+        width: 150px;
+        height: 225px;
+    }
+
+    .galeria-livros div.duplinha {
+        width: 350px;
+    }
+
+    .carrossel-livros {
+        width: 900px;
+        gap: 10px;
+    }
+
+    .card {
+        height: 250px;
+    }
+
+    .cardSobreposicao .title {
+        font-size: 1.4rem;
+    }
+
+    .cardSobreposicao .author {
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+
+    .cardSobreposicao .editora,
+    .cardSobreposicao .buy {
+        font-size: 0.9rem;
+        margin-bottom: 5px;
+    }
+
+    .seta {
+        font-size: 75px !important;
+    }
+
+}
+
+@media (max-width: 935px) {
+    .carrossel-livros {
+        width: 500px;
+    }
+
+    .seta {
+        font-size: 40px !important;
+    }
 }
