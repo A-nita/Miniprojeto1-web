@@ -5,7 +5,6 @@
     flex-direction: column;
     gap: 0.5rem;
     font-size: 1.6rem;
-    /* background-color: #fafafa; */
 }
 
 #form-cadastro-item>h2 {
@@ -24,7 +23,6 @@
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    /* color: black; */
 
     max-width: 800px;
     min-width: 330px;
@@ -42,7 +40,6 @@
     justify-content: center;
     flex-direction: column;
     gap: 0.8rem;
-    
 }
 
 .cadastro_item div input, select {
@@ -51,7 +48,6 @@
     border: 1px solid transparent;
     padding: 0.8rem 2rem;
     width: 350px;
-    /* background-color: var(--cinza-claro); */
     background-color: #0f0e17;
     color: white;
 }
@@ -60,12 +56,13 @@
     border: 1px solid var(--roxo);
     outline: none;
 }
+
 .cadastro_item label{
     color: rgb(170, 170, 170);
     font-size: 1.3rem;
     font-weight: 600;
-    
 }
+
 .cadastro_item label.imagem-capa-container {
     display: flex;
     flex-direction: column;
@@ -82,7 +79,6 @@
 
 #imagem-capa {
     display: none;
-    /* border: none; */
 }
 
 #imagem-capa-msg {
@@ -112,6 +108,7 @@ span.imagem-capa-icon {
     font-size: 68px;
     color: rgb(113, 113, 236);
 }
+
 #btn_cadastro_item {
     background-color: rgb(163, 77, 255);
     color: white;
@@ -123,6 +120,7 @@ span.imagem-capa-icon {
     font-size: 2.4rem;
     cursor: pointer;
 }
+
 hr {
     width: 386px;
     border: 1px solid rgb(76, 75, 79);

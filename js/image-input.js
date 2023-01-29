@@ -1,5 +1,9 @@
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Código necessário para tratamento da seleção de arquivos
+    // Mostra um aviso quando não há nenhum arquivo selecionado e quando há um arquivo
+    // selecionado, mostra o nome desse arquivo
+
     const imageInput = document.getElementById('imagem-capa')
     const selectedFilenameLabel = document.getElementById('selected-filename-label')
 

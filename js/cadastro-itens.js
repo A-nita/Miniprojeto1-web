@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const anoPublicacaoSelect = document.getElementById('ano-publicacao')
     const imageInput = document.getElementById('imagem-capa')
 
+
+    // Adição de anos no select (de 1800 até o ano atual)
     let initYear = 1800
     let currentYear = new Date().getFullYear() 
     for (let year = initYear; year <= currentYear; year++) {
@@ -14,8 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const formCadastroItens = document.getElementById('form-cadastro-item')
-    formCadastroItens.addEventListener('submit', (event) => {
-      console.log(imageInput.value)
+    formCadastroItens.addEventListener('submit', () => {
       alert('Cadastro do item realizado com sucesso !')
     })
     

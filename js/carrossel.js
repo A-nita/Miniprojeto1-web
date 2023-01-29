@@ -1,5 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Todo código necessário para colocar os componentes "carrossel" em funcionamento
     const carrossels = document.querySelectorAll('.carrossel-livros')
 
     carrossels.forEach((carrossel) => {

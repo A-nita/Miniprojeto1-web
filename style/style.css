@@ -29,6 +29,7 @@ main h2 {
     margin-bottom: 2rem;
     color: white;
 }
+
 .categoria{
     display: flex;
     align-items: center;
@@ -38,11 +39,11 @@ main h2 {
     height: 100%;    
     color: white;
 }
+
 .categoria span{
     font-size: 2rem;
     color: white;
     
-    /* pointer */
     cursor: pointer;
 }
 
@@ -61,5 +62,4 @@ footer{
     font-size: 1.2rem;
     padding: 2rem 0;
     gap: 1rem;
-    
 }

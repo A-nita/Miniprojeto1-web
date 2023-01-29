@@ -1,5 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
+    // Código necessário para que seja possível transicionar entre as páginas "home" e "cadastro de item"
+
     const homePage = document.getElementById('homepage')
     const cadastroItensPage = document.getElementById('cadastro-itens')
 
